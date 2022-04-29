@@ -1,5 +1,5 @@
 # Round Robin
-A C++ program that simulates the Round Robin scheduling algorithm in which each process is assigned a fixed time slot in a cyclic way. This scheduling method is easy to implement and prevents starvation as all processes get fair share of CPU!
+A C++ program that simulates the Round Robin scheduling algorithm in which each process is assigned a fixed time slot in a cyclic way. This scheduling method is easy to implement and prevents starvation as all processes get a fair share of CPU!
 
 The program reads a list of processes and their burst times until end of transmission, EOF(^d). The alarm syscall is used to schedule an interrupt every 3 seconds and sleep is used to simulate the process running. 
 
